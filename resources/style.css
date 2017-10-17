@@ -1,3 +1,40 @@
-div {
+/*div {
   border: 1px solid black;
+}*/
+
+/* whole page styling */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.container {
+  position: relative;
+  top: 70px;
+}
+
+/*header styling*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  height: 70px;
+  z-index: 5;
+}
+.header li {
+  display: inline-block;
+  padding: 10px;
+  color: seashell;
+  text-decoration: underline;
+}
+.header img {
+  height: 50px;
 }
