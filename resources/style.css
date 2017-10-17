@@ -12,8 +12,10 @@ body {
 }
 .container {
   position: relative;
-  top: 70px;
+  top: 65px;
+  text-align: center;
 }
+/*end whole page styling*/
 
 /*header styling*/
 .header {
@@ -37,4 +39,19 @@ body {
 }
 .header img {
   height: 50px;
+}
+/*end header styling*/
+
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mission {
+  background-color: black;
+
 }
