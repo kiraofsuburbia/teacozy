@@ -17,6 +17,7 @@ body {
 }
 /*end whole page styling*/
 
+
 /*header styling*/
 .header {
   display: flex;
@@ -42,6 +43,8 @@ body {
 }
 /*end header styling*/
 
+
+/*mission styling */
 .main {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
@@ -54,9 +57,11 @@ body {
 #mission {
   background-color: black;
   padding: 0px;
-
 }
+/*end mission styling*/
 
+
+/* tea section styling */
 .teas, .row2 {
   display: flex;
   flex-wrap: wrap;
@@ -66,4 +71,36 @@ body {
   height: 200px;
   width: 300px;
   margin: 10px;
+}
+/*end tea section styling*/
+
+
+/*locations styling*/
+.image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+.location {
+  background-color: black;
+  margin: 20px;
+  width: 300px;
+  padding: 10px;
+}
+/*end locations styling*/
+
+
+/*footer styling*/
+.footer {
+  margin: 20px;
+}
+#copyright {
+  text-align: left;
+  display: block;
 }
