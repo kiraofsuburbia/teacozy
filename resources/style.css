@@ -1,5 +1,5 @@
 /*div {
-  border: 1px solid black;
+  border: 1px solid red;
 }*/
 
 /* whole page styling */
@@ -53,5 +53,17 @@ body {
 }
 #mission {
   background-color: black;
+  padding: 0px;
 
+}
+
+.teas, .row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
 }
