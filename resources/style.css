@@ -94,13 +94,6 @@ body {
   padding: 10px;
 }
 /*end locations styling*/
-
-
-/*footer styling*/
-.footer {
-  margin: 20px;
-}
-#copyright {
+h5 {
   text-align: left;
-  display: block;
 }
